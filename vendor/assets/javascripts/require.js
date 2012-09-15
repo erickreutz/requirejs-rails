@@ -1942,7 +1942,7 @@ var requirejs, require, define;
 
                 //Strip off any trailing .js since dataMain is now
                 //like a module name.
-                dataMain = dataMain.replace(jsSuffixRegExp, '');
+                //dataMain = dataMain.replace(jsSuffixRegExp, '');
 
                 //Put the data-main script in the files to load.
                 cfg.deps = cfg.deps ? cfg.deps.concat(dataMain) : [dataMain];
